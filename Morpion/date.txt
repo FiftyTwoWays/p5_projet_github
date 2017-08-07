@@ -1,4 +1,7 @@
 3 Août 2017
 
 5 Août 2017
-update : changement du joueur qui commence + upgrade IA.
+update : alternage du joueur qui commence + upgrade IA.
+
+6 Août 2017
+update : upgrade IA.
