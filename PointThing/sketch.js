@@ -12,12 +12,15 @@ var vitessePoint = 0.02;
 
 function setup() {
     clear();
+    pointContain = [];
+    pointContainVitesse = [];
+    pointContainAcceleration = [];
     createCanvas(windowWidth, windowHeight - 4);
     
     gui = createGui('Panel de valeur');
     sliderRange(10, 500, 10);
     gui.addGlobals('nombrePoint');
-    sliderRange(10, 250, 5);
+    sliderRange(10, 100, 5);
     gui.addGlobals('distanceLigne');
     sliderRange(0.005, 0.1, 0.005);
     gui.addGlobals('vitessePoint');
